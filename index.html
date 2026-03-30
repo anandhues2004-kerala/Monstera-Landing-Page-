@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- googlefonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Momo+Signature&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- font ossam -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- tailwindcss -->
+   
+ <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+                fonts:["Montserrat", "sans-serif"] 
+
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+ <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <main class="h-screen overflow-hidden">
+<img src="./6_folwer_cut.png" alt=" rightflower" class="absolute right-0 bottom-0 h-[600px] hidden lg:flex">
+<div class="lg:w-1/2 flex justify-center ">
+  <img src="./6_folwer.png" alt="centerimage" class="w-[300px] md:w-[400px] bottom-20 absolute flex justify-center items-center lg:hidden items-center">
+
+</div>
+
+<nav class="flex justify-between px-10 py-4">
+    <img src="./photos/Logo.svg" alt="logo">
+ <ul class=" flex justify-center items-center gap-10 xl:text-2xl lg:text-xl font-poppins font-medium hidden lg:flex">
+        <li class="cursor-pointr hover:text-black hover:underline">Home</li>
+        <li class="cursor-pointr hover:text-black hover:underline">collection</li>
+        <li class="cursor-pointr hover:text-black hover:underline">shop</li>
+        <li class="cursor-pointr hover:text-black hover:underline">about</li>
+        <li class="cursor-pointr hover:text-black hover:underline">contact</li>
+
+    </ul>
+  
+    <div class="flex gap-6 py-2 ">
+      <span class="lg:hidden text-lg  ">
+        <i class="fa-solid fa-bars" style="color: rgb(12, 12, 10)lg ;"></i>
+      </span>
+       
+        <img src="./photos/cart.svg" alt="" class="h-[20px] xl:h-[25px] hidden sm:flex ">
+        <img src="./photos/user.svg" alt=""  class="h-[20px] xl:h-[25px] hidden sm:flex">
+        <img src="./photos/search.svg" alt=""  class="h-[20px] xl:h-[25px] hidden sm:flex ">
+    </div>
+    
+
+
+</nav>
+
+
+<section class="px-10 lg:px-20 py-10 ">
+  <div class="hidden xl:flex">
+    <li class="absolute left-10 top-55 text-center"></li>
+  <li class="absolute left-10 top-65"></li>
+  <li class="absolute left-10 top-75"></li>
+  <li class="absolute left-10 top-82"></li>
+
+  </div>
+<!-- left -->
+  <div class="lg:w-1/2 text-center lg:text-left">
+     <h1 class="font-bold font-fonts text-[60px] md:text-8xl">MONSTERA</h1>
+ <p class="mt-2  font-poppins xl:text-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis nesciunt nam perferendis  <br> minus eum atque consequuntur!  Iure omnis, hic iste quia dolorum incidunt, ab commodi cumque <br> porro blanditiis recusandae!</p>
+ <button class="bg-green-700 rounded-full text-white h-7 w-30 mt-7 hover:bg-red-600 ">DISCOVER <span><i class="fa-solid fa-angle-right" style="color: rgb(242, 242, 241);"></i></span> </button>
+  </div>
+
+ 
+  <div class="flex mt-30 gap-6 hidden lg:flex xl:text-2xl lg:text-sm ">
+    <img src="./photos/springler.png" alt="" class="h-[60px]">
+    <span class="-ml-5 ">
+    <h1 class="font-medium font-fonts">Feeding</h1>
+    <p class="font-poppins  text-sm xl:text-lg" >Lorem ipsum dolor <br> sit amet.</p>
+</span>
+<img src="./photos/light.svg" alt="" class="h-[60px]">
+<span class="-ml-5">
+  <h1 class="font-medium font-fonts">Light</h1>
+  <p class="font-poppins text-sm xl:text-lg">Lorem ipsum dolor <br> sit amet.</p>
+</span>
+<img src="./photos/plough.svg" alt="" class="h-[60px]">
+<span class="-ml-5">
+  <h1 class="font-fonts font-medium ">Care</h1>
+  <p class="font-poppins text-sm xl:text-lg">Lorem ipsum dolor <br> sit amet.</p>
+</span>
+   
+   
+
+  </div>
+  
+  
+ 
+</section>
+
+    </main>
+</body>
+</html>
